@@ -1,0 +1,62 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../images/bg_grad.png');
+}
+
+html,
+body {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  max-width: 1023px;
+  margin: 0 auto 7px;
+  padding: 0 1em;
+  @include breakpoint(mobile-md) {
+    width: 100%;
+    margin: 0 auto 5px;
+    padding: 0 5px;
+  }
+}
+
+.container:before,
+.container:after,
+.row:after,
+.row:before {
+  display: table;
+  content: '';
+}
+
+textarea {
+  resize: vertical;
+}
+
+.page_wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.content {
+  flex: 1 0 auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  flex: 0 0 auto;
+}

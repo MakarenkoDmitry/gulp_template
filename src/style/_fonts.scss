@@ -1,0 +1,14 @@
+/* fonts */
+@font-face {
+	font-family: "ZurichR";
+	src: url("#{$fonts}Zurich Condensed BT.eot");
+	src: url("#{$fonts}Zurich Condensed BT.eot?#iefix") format("embedded-opentype"),
+		 url("#{$fonts}Zurich Condensed BT.woff") format("woff"),
+		 url("#{$fonts}Zurich Condensed BT.ttf") format("truetype"),
+		 url("#{$fonts}Zurich Condensed BT.svg#Zurich Condensed BT") format("svg");
+	font-style: normal;
+	font-stretch: condensed;
+	unicode-range: U+0020-F002;
+	font-weight: 400;
+}
+/* end fonts */
